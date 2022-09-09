@@ -1,10 +1,10 @@
 import React from "react";
 import Navegation from "../Componentes/Navegation";
-import Carrusel2 from "../Componentes/Carrusel2";
 import Footer from "../Componentes/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import Link from "next/link";
+import Image from "next/image";
 
 const Opcion1 = () => {
   return (
@@ -14,7 +14,8 @@ const Opcion1 = () => {
       <div className="flex flex-col lg:flex-row w-full items-center  lg:mt-10 justify-around">
         <div className="w-[100%] lg:w-[40%] h-[30rem]  ">
           <Link href="/Alojamientos/Opciones">
-            <img
+            <Image
+              layout="fill"
               className="hidden lg:block h-10 w-10 mb-5 cursor-pointer "
               src="/Images/flechaAtras.png"
               alt=""
@@ -31,16 +32,36 @@ const Opcion1 = () => {
             modules={[Autoplay, Navigation]}
           >
             <SwiperSlide>
-              <img className="w-full h-full  " src="/Images/carrusel1.jpeg" alt="" />{" "}
+              <Image
+                layout="fill"
+                className="w-full h-full  "
+                src="/Images/carrusel1.jpeg"
+                alt=""
+              />{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <img className="w-full h-full " src="/Images/carrusel2.jpeg" alt="" />
+              <Image
+                layout="fill"
+                className="w-full h-full "
+                src="/Images/carrusel2.jpeg"
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="w-full h-full " src="/Images/carrusel3.jpeg" alt="" />
+              <Image
+                layout="fill"
+                className="w-full h-full "
+                src="/Images/carrusel3.jpeg"
+                alt=""
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="w-full h-full " src="/Images/carrusel4.jpeg" alt="" />
+              <Image
+                layout="fill"
+                className="w-full h-full "
+                src="/Images/carrusel4.jpeg"
+                alt=""
+              />
             </SwiperSlide>
             ...
           </Swiper>

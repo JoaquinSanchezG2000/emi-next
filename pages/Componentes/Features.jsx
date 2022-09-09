@@ -1,5 +1,6 @@
 import React from "react";
 import Maps from "./Maps";
+import Image from "next/image";
 
 const Features = () => {
   const ricardo = ["garlic print sleep spider keep script earn lake bright member north grocery"];

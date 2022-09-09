@@ -1,5 +1,6 @@
 import React from "react";
 // import GoogleMaps from "simple-react-google-maps";
+import Image from "next/image";
 
 const Maps = props => {
   return (
