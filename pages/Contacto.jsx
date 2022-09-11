@@ -2,7 +2,7 @@ import React from "react";
 import Navegation from "./Componentes/Navegation";
 import Carrusel2 from "./Componentes/Carrusel2";
 import Footer from "./Componentes/Footer";
-import Image from "next/image";
+import img from "next/img";
 
 const Contacto = () => {
   return (
@@ -22,28 +22,28 @@ const Contacto = () => {
         <div className="w-[100%] lg:w-[50%] flex items-center justify-center ">
           <div className="m-10">
             <a href="">
-              <Image
+              <img
                 layout="fill"
                 className="h-[5rem] m-5 "
-                src="/Images/instagram.png"
+                src="/imgs/instagram.png"
                 alt=""
               />
             </a>
             <a href="">
-              <Image
+              <img
                 layout="fill"
                 className="h-[5rem] m-5 "
-                src="/Images/whatsapp.png"
+                src="/imgs/whatsapp.png"
                 alt=""
               />
             </a>
           </div>
           <div className="m-10">
             <a href="">
-              <Image className="h-[5rem] m-5 " src="/Images/mercadoLogo.png" alt="" />
+              <img className="h-[5rem] m-5 " src="/imgs/mercadoLogo.png" alt="" />
             </a>
             <a href="">
-              <Image className="h-[5rem] m-5 " src="/Images/email.png" alt="" />
+              <img className="h-[5rem] m-5 " src="/imgs/email.png" alt="" />
             </a>
           </div>
         </div>

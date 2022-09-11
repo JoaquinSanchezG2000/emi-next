@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
+import img from "next/img";
 
 const ProductInfo = () => {
   return (
@@ -10,10 +10,10 @@ const ProductInfo = () => {
         <div className="w-[100%] h-[50%] lg:h-[100%] lg:w-[50%] lg:p-3 lg:m-5   ">
           <h2 className="text-2xl ">Cabaña1</h2>
           <Link href="/Alojamientos/Opcion1">
-            <Image
+            <img
               layout="fill"
               className="w-full  h-[90%] mt-5 border-double border-[10px] border-green-600 p-1  hover:scale-105 hover:brightness-125   "
-              src="/Images/carrusel1.jpeg"
+              src="/imgs/carrusel1.jpeg"
               alt=""
             />
           </Link>
@@ -22,10 +22,10 @@ const ProductInfo = () => {
         <div className=" w-[100%] h-[50%] lg:h-[100%] lg:w-[50%] lg:p-3 lg:m-5    ">
           <h2 className=" text-2xl">Cabaña2</h2>
           <Link href="/Alojamientos/Opcion2">
-            <Image
+            <img
               layout="fill"
               className="w-full  h-[90%] mt-5 border-double border-[10px] border-green-600 p-1 hover:scale-105 hover:brightness-125   "
-              src="/Images/carrusel1.jpeg"
+              src="/imgs/carrusel1.jpeg"
               alt=""
             />
           </Link>
