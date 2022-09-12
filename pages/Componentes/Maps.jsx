@@ -1,11 +1,6 @@
 import React, { useMemo } from "react";
 
-// import { GoogleMap, useLoadScript, Marker } from "react-google-maps";
-
 const Maps = props => {
-  // const { isLoaded } = useLoadScript({
-  //   googleMapsApiKey: " AIzaSyBg1SwJldHjv0mTeltU3N5We0MIr9TdKB4 ",
-  // });
   return (
     <div className="  p-4 w-full lg:flex mt-10  ">
       <div className="h-full lg:w-[50%] px-10 ">
@@ -35,13 +30,6 @@ const Maps = props => {
             loading="lazy"
           ></iframe>
         </div>
-
-        {/* <GoogleMap
-          zoom={10}
-          center={{ lat: -37.950328, lng: -57.779804 }}
-          mapContainerClassName="map__container"
-        ></GoogleMap> */}
-        {/* markers={{ lat: -37.950328, lng: -57.779804 }} */}
       </div>
     </div>
   );

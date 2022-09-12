@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-
 const Navegation = () => {
   function openMenu() {
     setChangeMenu(prevState => !prevState);
@@ -12,10 +11,10 @@ const Navegation = () => {
     const menu = document.getElementById("menu");
     const backdrop = document.getElementById("backdrop");
     if (changeMenu === false) {
-      menu.classList.add("hidden")
+      menu.classList.add("hidden");
       backdrop.classList.add("hidden");
     } else {
-      menu.classList.remove("hidden")
+      menu.classList.remove("hidden");
       backdrop.classList.remove("hidden");
     }
 
@@ -42,12 +41,7 @@ const Navegation = () => {
           </div>
         </div>
         <div>
-          <img
-            onClick={openMenu}
-            className="h-[5rem]  lg:hidden  "
-            src="/Images/menu.png"
-            alt=""
-          />
+          <img onClick={openMenu} className="h-[5rem]  lg:hidden  " src="/Images/menu.png" alt="" />
           <div
             onClick={openMenu}
             id="backdrop"

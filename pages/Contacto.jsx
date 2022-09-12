@@ -3,7 +3,6 @@ import Navegation from "./Componentes/Navegation";
 import Carrusel2 from "./Componentes/Carrusel2";
 import Footer from "./Componentes/Footer";
 
-
 const Contacto = () => {
   return (
     <div>
@@ -22,18 +21,10 @@ const Contacto = () => {
         <div className="w-[100%] lg:w-[50%] flex items-center justify-center ">
           <div className="m-10">
             <a href="">
-              <img
-                className="h-[5rem] m-5 "
-                src="/Images/instagram.png"
-                alt=""
-              />
+              <img className="h-[5rem] m-5 " src="/Images/instagram.png" alt="" />
             </a>
             <a href="">
-              <img
-                className="h-[5rem] m-5 "
-                src="/Images/whatsapp.png"
-                alt=""
-              />
+              <img className="h-[5rem] m-5 " src="/Images/whatsapp.png" alt="" />
             </a>
           </div>
           <div className="m-10">

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 const ProductInfo = () => {
   return (
     <div id="products" className="text-center mt-10 ">

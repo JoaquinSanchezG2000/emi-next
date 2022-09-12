@@ -1,23 +1,14 @@
-import Head from 'next/head'
-import Navegation from './Componentes/Navegation'
-import Carrusel2 from './Componentes/Carrusel2'
-import Features from "./Componentes/Features"
-import Footer from './Componentes/Footer'
-
-
-
-
+import Navegation from "./Componentes/Navegation";
+import Carrusel2 from "./Componentes/Carrusel2";
+import Features from "./Componentes/Features";
+import Footer from "./Componentes/Footer";
 export default function Home() {
-
   return (
-    <div >
+    <div>
       <Navegation />
-      <Carrusel2/>
+      <Carrusel2 />
       <Features />
-      <Footer/>
-
-      
-
+      <Footer />
     </div>
-  )
+  );
 }

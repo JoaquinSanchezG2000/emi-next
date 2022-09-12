@@ -4,7 +4,6 @@ import Footer from "../Componentes/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import Link from "next/link";
-
 const Opcion1 = () => {
   return (
     <div>
