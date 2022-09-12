@@ -1,8 +1,11 @@
-import React from "react";
-import GoogleMaps from "simple-react-google-maps";
+import React, { useMemo } from "react";
 
+// import { GoogleMap, useLoadScript, Marker } from "react-google-maps";
 
 const Maps = props => {
+  // const { isLoaded } = useLoadScript({
+  //   googleMapsApiKey: " AIzaSyBg1SwJldHjv0mTeltU3N5We0MIr9TdKB4 ",
+  // });
   return (
     <div className="  p-4 w-full lg:flex mt-10  ">
       <div className="h-full lg:w-[50%] px-10 ">
@@ -23,17 +26,21 @@ const Maps = props => {
           </li>
         </ul>
       </div>
-      <div className="w-[100%] border border-black mt-10 ">
-        <GoogleMaps
-          apiKey={"AIzaSyBg1SwJldHjv0mTeltU3N5We0MIr9TdKB4"}
-          style={{ height: "400px", width: "100%" }}
-          zoom={12}
-          markers={{ lat: -37.950328, lng: -57.779804 }}
-          center={{
-            lat: -37.950328,
-            lng: -57.779804,
-          }}
-        />
+      <div className="map__container w-[100%] border border-black mt-10 ">
+        <div className="m-1  ">
+          <iframe className="w-full h-[20rem]  "
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25168.731484564927!2d-57.796785759973694!3d-37.951650962222985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95852efdfd3420cf%3A0xdb2005c1cd0d533e!2sSierra%20de%20los%20Padres%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1662991383663!5m2!1ses!2sar"
+            style={{ border: 0 }}
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        {/* <GoogleMap
+          zoom={10}
+          center={{ lat: -37.950328, lng: -57.779804 }}
+          mapContainerClassName="map__container"
+        ></GoogleMap> */}
+        {/* markers={{ lat: -37.950328, lng: -57.779804 }} */}
       </div>
     </div>
   );
