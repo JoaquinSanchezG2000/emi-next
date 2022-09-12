@@ -1,5 +1,5 @@
 import React from "react";
-// import GoogleMaps from "simple-react-google-maps";
+import GoogleMaps from "simple-react-google-maps";
 
 
 const Maps = props => {
@@ -24,7 +24,7 @@ const Maps = props => {
         </ul>
       </div>
       <div className="w-[100%] border border-black mt-10 ">
-        {/* <GoogleMaps
+        <GoogleMaps
           apiKey={"AIzaSyBg1SwJldHjv0mTeltU3N5We0MIr9TdKB4"}
           style={{ height: "400px", width: "100%" }}
           zoom={12}
@@ -33,7 +33,7 @@ const Maps = props => {
             lat: -37.950328,
             lng: -57.779804,
           }}
-        /> */}
+        />
       </div>
     </div>
   );
