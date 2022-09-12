@@ -36,7 +36,7 @@ const Navegation = () => {
       </a>
       <div className="border-b-3 border-gray  flex w-full justify-between lg:justify-around mx-4">
         <div className="flex items-center justify-center  ">
-          <img layout="fill" className="h-[5rem] " src="/Images/logo.png" alt="" />
+          <img className="h-[5rem] " src="/Images/logo.png" alt="" />
           <div className="text-3xl text-white ml-6">
             <Link href="/">Cabaña</Link>
           </div>

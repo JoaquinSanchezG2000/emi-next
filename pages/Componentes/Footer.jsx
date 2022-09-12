@@ -22,7 +22,7 @@ const Footer = () => {
             <img className="w-[4rem] " src="/Images/instagram.png" alt="" />
           </a>
 
-          <a href="https://wa.link/xnuwu0 " rel="noreferrer" className="border-3 ">
+          <a href="https://wa.link/xnuwu0 " className="border-3 ">
             <img className="w-[4rem] " src="/Images/whatsapp.png" alt="" />
           </a>
           <a href="">
