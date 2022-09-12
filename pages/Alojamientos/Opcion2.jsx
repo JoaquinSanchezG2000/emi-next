@@ -5,7 +5,7 @@ import Footer from "../Componentes/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import Link from "next/link";
-import img from "next/img";
+
 
 const Opcion2 = () => {
   return (
@@ -16,9 +16,9 @@ const Opcion2 = () => {
         <div className="w-[100%] lg:w-[40%] h-[30rem]  ">
           <Link href="/Alojamientos/Opciones">
             <img
-              layout="fill"
+
               className="hidden lg:block h-10 w-10 mb-5 cursor-pointer "
-              src="/imgs/flechaAtras.png"
+              src="/Images/flechaAtras.png"
               alt=""
             />
           </Link>
@@ -34,33 +34,33 @@ const Opcion2 = () => {
           >
             <SwiperSlide>
               <img
-                layout="fill"
+
                 className="w-full h-full  "
-                src="/imgs/carrusel1.jpeg"
+                src="/Images/carrusel1.jpeg"
                 alt=""
               />{" "}
             </SwiperSlide>
             <SwiperSlide>
               <img
-                layout="fill"
+
                 className="w-full h-full "
-                src="/imgs/carrusel2.jpeg"
+                src="/Images/carrusel2.jpeg"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                layout="fill"
+
                 className="w-full h-full "
-                src="/imgs/carrusel3.jpeg"
+                src="/Images/carrusel3.jpeg"
                 alt=""
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                layout="fill"
+
                 className="w-full h-full "
-                src="/imgs/carrusel4.jpeg"
+                src="/Images/carrusel4.jpeg"
                 alt=""
               />
             </SwiperSlide>

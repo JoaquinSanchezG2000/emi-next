@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import img from "next/img";
+
 
 const Navegation = () => {
   function openMenu() {
@@ -29,26 +29,23 @@ const Navegation = () => {
     >
       <a href="https://wa.link/xnuwu0" rel="noreferrer">
         <img
-          width={auto}
-          height={auto}
           className="h-[5rem] fixed right-1 bottom-[12rem] z-10 "
-          src="/imgs/whatsapp.png"
+          src="/Images/whatsapp.png"
           alt=""
         />
       </a>
       <div className="border-b-3 border-gray  flex w-full justify-between lg:justify-around mx-4">
         <div className="flex items-center justify-center  ">
-          <img layout="fill" className="h-[5rem] " src="/imgs/logo.png" alt="" />
+          <img layout="fill" className="h-[5rem] " src="/Images/logo.png" alt="" />
           <div className="text-3xl text-white ml-6">
             <Link href="/">Cabaña</Link>
           </div>
         </div>
         <div>
           <img
-            layout="fill"
             onClick={openMenu}
             className="h-[5rem]  lg:hidden  "
-            src="/imgs/menu.png"
+            src="/Images/menu.png"
             alt=""
           />
           <div

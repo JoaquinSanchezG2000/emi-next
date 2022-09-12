@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
-import img from "next/img";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -21,33 +21,33 @@ const Carrusel2 = () => {
       >
         <SwiperSlide>
           <img
-            layout="fill"
+
             className="w-full h-full"
-            src="/imgs/carrusel1.jpeg"
+            src="/Images/carrusel1.jpeg"
             alt=""
           />{" "}
         </SwiperSlide>
         <SwiperSlide>
           <img
-            layout="fill"
+
             className="w-full h-full"
-            src="/imgs/carrusel2.jpeg"
+            src="/Images/carrusel2.jpeg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            layout="fill"
+
             className="w-full h-full"
-            src="/imgs/carrusel3.jpeg"
+            src="/Images/carrusel3.jpeg"
             alt=""
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            layout="fill"
+
             className="w-full h-full"
-            src="/imgs/carrusel4.jpeg"
+            src="/Images/carrusel4.jpeg"
             alt=""
           />
         </SwiperSlide>
